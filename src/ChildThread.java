@@ -11,6 +11,8 @@ public class ChildThread extends Thread {
 			System.out.println("Printing the count " + count);
 			try {
 				Thread.sleep(1000);
+
+
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
