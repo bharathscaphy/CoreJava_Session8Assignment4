@@ -11,8 +11,8 @@ public class ThreadCountPrint {
 						.println("Main thread will be alive till the child thread is live");
 				Thread.sleep(1500);
 			}
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+		} catch (InterruptedException exp) {
+			exp.printStackTrace();
 		}
 		System.out.println("Main thread's run is over");
 	}
